@@ -6,12 +6,12 @@ __pycache__/
 
 # Environment
 .env
-.venv
+.venv/
 env/
 
 # IDE
 .vscode/
 .idea/
 
-# Other
+# System
 .DS_Store
