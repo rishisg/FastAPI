@@ -1,17 +1,46 @@
-﻿# Python
-__pycache__/
+﻿# Python bytecode
 *.pyc
 *.pyo
-*.pyd
+__pycache__/
 
-# Environment
-.env
-.venv/
+# Virtual Environment
+venv/
 env/
+.venv/
+.env/
 
-# IDE
+# VSCode settings
 .vscode/
-.idea/
 
-# System
+# .env files (sensitive information)
+.env
+
+# Dependency directories
+__pycache__/
+*.egg-info/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# FastAPI Pydantic
+*.pydantic/
+
+# Log files
+*.log
+
+# Cache files
+.cache/
+
+# Python packaging files
+*.egg
+*.whl
+
+# Testing and coverage files
+.coverage
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# IDE/Editor files
+.idea/
 .DS_Store
